@@ -9,7 +9,7 @@ N/A
 ## Usage
 
 Below is the deployed URL:
-
+https://maritzadiaz77.github.io/BetterWeather/ 
 
 ## Credits
 stack overflow,w3schools, and Openweather.
