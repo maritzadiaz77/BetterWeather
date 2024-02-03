@@ -10,7 +10,7 @@ N/A
 
 Below is the deployed URL:
 
-
+![screenshot](assets/weather.png)
 ## Credits
 stack overflow,w3schools, and Openweather.
 
