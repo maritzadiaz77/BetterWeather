@@ -1,3 +1,9 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+
+}
 header {
     padding: 10px;
     text-align: center;
@@ -5,4 +11,54 @@ header {
     color: white;
     font-size: 20px;
   }
- 
+
+body {
+background: ffff;
+}
+.container{
+   display: flex;
+   gap: 35px;
+   padding:30px ;
+}
+.weather-input{
+   width: 550px;
+}
+.weather-input input{
+   width: 100%;
+   height: 46px;
+   outline: none;
+   padding: 0 17px;
+   margin: 10px 0 20px 0;
+ font-size:1.07rem; 
+  border-radius:4px;
+   border: 1px solid #ccc
+}
+.search-btn{
+   background-color:lightblue;
+}
+.weather-data {
+   width:100%;
+}
+.current-weather{
+   outline: auto;
+   display: flex ;
+   padding: 20px 70px 20px 20px;
+   justify-content: space-between;
+}
+.days-forecasts h2{
+   font-size: 1.5rem;
+   margin:20px 0;
+}
+   .weather-cards {
+      display: flex;
+      gap: 50px;
+      
+   }
+   .weather-cards .card{
+      list-style: none;
+      padding:18px 16px;
+      color:white;
+ background-color: darkblue;
+ padding: 18px 16px;
+
+   }
